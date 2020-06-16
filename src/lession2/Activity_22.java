@@ -17,6 +17,6 @@ public class Activity_22 {
         Scanner in = new Scanner(System.in);
         System.out.printf("Nhap a:");
         int a = in.nextInt();
-        System.out.println("KQ :" + (a + a * 11 + a * 111));
+        System.out.println("KQ "+a*1+"+"+a*11+"+"+a*111+":" + a*(1+11+111));
     }
 }
