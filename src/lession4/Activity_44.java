@@ -14,7 +14,7 @@ public class Activity_44 {
     }
 
     static int max(int[] a, int n) {
-        int max = 0;
+        int max = a[0];
         for (int i = 0; i < n; i++) {
             if (max < a[i]) {
                 max = a[i];
