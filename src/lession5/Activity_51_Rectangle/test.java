@@ -5,7 +5,7 @@ public class test {
         Rectangle r = new Rectangle();
         r.nhap();
         if(r.kt_hinh_vuong(r)){
-            System.out.println("la Hinh vuong");
-        }else System.out.println("ko la Hinh Vuong");
+            System.out.println(r.toString() + "la Hinh vuong");
+        }else System.out.println(r.toString() + "ko la Hinh Vuong");
     }
 }
