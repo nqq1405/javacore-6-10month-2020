@@ -19,7 +19,6 @@ public class Manager_student {
                 number_pass++;
             }
         }
-
         int number_fail = std.length - number_pass;
         student_fail_pass st = new student_fail_pass(number_pass,number_fail);
         return st;
